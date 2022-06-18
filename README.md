@@ -1,23 +1,21 @@
-This is a personal repo for examples on sites like StackOverflow, GitHub or GitLab issues, where I'd
-like to have working recreation without creating a diff different repo each time.
+Personal repo for examples on sites like StackOverflow, GitHub or GitLab issues
+
+- carefully prepared questions:
+
+  - draft and refine before asking
+  - well-researched: reference other attempts / specs / ahead
+  - succinct, well-articulated: clean up wording. Differentiate from other, unrelated
+
+- minimal recreation
+  - with tests
+- reuse: not create a diff different repo each time
 
 # Start
 
 ## Create virtual environment
 
-Use [virtualenv] as a sandbox so this doesn't bork your own packages.
-
-```console
-$ python3.10 -m venv .venv
-```
-
-If not, use the latest version of python you have:
-
-```console
-$ python3.9 -m venv .venv
-```
-
-Last resort, but hopefully you have a new system with a newer python 3.
+Use [virtualenv] as a sandbox so this doesn't bork your own packages. Have a very recent python
+version.
 
 ```console
 $ python3 -m venv .venv
